@@ -37,14 +37,14 @@
                 </Standard.CSharp>
                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable moment_end" Description="" GUID="e22ffd4a-0e1a-44ee-880f-7605e8d81e10" Next="bd25522c-c0a0-498d-8990-fb9217820ab3" Previous="6984f7b4-e413-40d7-9811-44e60b621cb0" Parent="0b0fab11-562e-4499-95c1-bf8fee87cdee" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                   <Properties>
-                    <ReturnValueVariable>b9546f3e-4363-4dcb-88cc-89bde83814ca</ReturnValueVariable>
                     <Value>{Год}-{Месяц}-{День}</Value>
+                    <ReturnValueVariable>b9546f3e-4363-4dcb-88cc-89bde83814ca</ReturnValueVariable>
                   </Properties>
                 </Standard.SetVariable>
                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable moment_start" Description="" GUID="bd25522c-c0a0-498d-8990-fb9217820ab3" Next="" Previous="e22ffd4a-0e1a-44ee-880f-7605e8d81e10" Parent="0b0fab11-562e-4499-95c1-bf8fee87cdee" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                   <Properties>
-                    <ReturnValueVariable>2c903eb8-1bf7-4552-8c5c-a44bca56e43d</ReturnValueVariable>
                     <Value>{Год}-{Месяц}-01</Value>
+                    <ReturnValueVariable>2c903eb8-1bf7-4552-8c5c-a44bca56e43d</ReturnValueVariable>
                   </Properties>
                 </Standard.SetVariable>
               </List>
@@ -53,8 +53,8 @@
               <List>
                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Валюта" Description="" GUID="4a6ddf06-10ef-4ea4-a8d9-308760625bad" Next="83c6480c-707f-4ac4-b729-6f3b9b6bc38a" Previous="" Parent="fe53da15-fae4-456e-be85-989e98848085" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                   <Properties>
-                    <ReturnValueVariable>7046d359-b5e7-484e-bf69-ac9c530a5324</ReturnValueVariable>
                     <Value>USD/RUB</Value>
+                    <ReturnValueVariable>7046d359-b5e7-484e-bf69-ac9c530a5324</ReturnValueVariable>
                   </Properties>
                 </Standard.SetVariable>
                 <REST.Get type_guid="13bf3ea2-8998-4728-aa45-673ad3a0e29b" Name="GET" Description="" GUID="83c6480c-707f-4ac4-b729-6f3b9b6bc38a" Next="05c4d554-a69b-4a30-9601-9d80e2423a1b" Previous="4a6ddf06-10ef-4ea4-a8d9-308760625bad" Parent="fe53da15-fae4-456e-be85-989e98848085" UI_identifier="REST|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -80,14 +80,14 @@
                     </Standard.CSharp>
                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable  Счетчик = 2 для excel" Description="" GUID="799452b6-4554-498f-8ad7-9ff2fa7b3141" Next="024c888a-2d7a-41e1-92e3-4c1d6dffecbe" Previous="aa60da58-4844-4df3-9dcd-38df304d5d82" Parent="05c4d554-a69b-4a30-9601-9d80e2423a1b" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                       <Properties>
-                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                         <Value>2</Value>
+                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                       </Properties>
                     </Standard.SetVariable>
                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count = 0" Description="" GUID="024c888a-2d7a-41e1-92e3-4c1d6dffecbe" Next="f4405990-606e-4396-b042-56c965662b69" Previous="799452b6-4554-498f-8ad7-9ff2fa7b3141" Parent="05c4d554-a69b-4a30-9601-9d80e2423a1b" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                       <Properties>
-                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                         <Value>0</Value>
+                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                       </Properties>
                     </Standard.SetVariable>
                     <Base.If type_guid="890c9edf-13b1-4678-b74d-0538e584528e" Name="If" Description="Проверка: выложено ли основное значение курса? " GUID="f4405990-606e-4396-b042-56c965662b69" Next="" Previous="024c888a-2d7a-41e1-92e3-4c1d6dffecbe" Parent="05c4d554-a69b-4a30-9601-9d80e2423a1b" UI_identifier="Base|if" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -96,8 +96,8 @@
                           <List>
                             <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Курс &quot;-&quot;" Description="В случае отсутсвия основного значения проставляем &quot;-&quot;" GUID="3efa50d4-f7ab-437f-b7db-f3a45a52f323" Next="95c7e93c-65a3-46d9-bc43-83a61967c183" Previous="" Parent="d39ebad4-a41a-4e11-bbb8-cdb7539073ed" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <Value>-</Value>
                                 <EnableLog>false</EnableLog>
+                                <Value>-</Value>
                                 <AddressCell2></AddressCell2>
                                 <CellAddress>B{Счетчик}</CellAddress>
                                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -105,8 +105,8 @@
                             </Excel.SetValueCell>
                             <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение&quot;-&quot;" Description="В случае отсутсвия основного значения проставляем &quot;-&quot;" GUID="95c7e93c-65a3-46d9-bc43-83a61967c183" Next="76609bf2-5ad0-4d47-a60a-e5d564c6ce33" Previous="3efa50d4-f7ab-437f-b7db-f3a45a52f323" Parent="d39ebad4-a41a-4e11-bbb8-cdb7539073ed" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <Value>-</Value>
                                 <EnableLog>false</EnableLog>
+                                <Value>-</Value>
                                 <AddressCell2></AddressCell2>
                                 <CellAddress>C{Счетчик}</CellAddress>
                                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -114,8 +114,8 @@
                             </Excel.SetValueCell>
                             <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value G &quot;-&quot;" Description="" GUID="76609bf2-5ad0-4d47-a60a-e5d564c6ce33" Next="6f940909-b4a3-4ca1-b25b-8869ff8e7875" Previous="95c7e93c-65a3-46d9-bc43-83a61967c183" Parent="d39ebad4-a41a-4e11-bbb8-cdb7539073ed" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <Value>-</Value>
                                 <EnableLog>true</EnableLog>
+                                <Value>-</Value>
                                 <AddressCell2></AddressCell2>
                                 <CellAddress>G{Счетчик}</CellAddress>
                                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -145,8 +145,8 @@
                                         </TextActions.DeletePart>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value ЗначениеКурса" Description="" GUID="5094adaa-0bbb-41ba-bba4-5a121d0045b0" Next="f04e1a39-fbd8-4cd7-b26d-caf4d6d2987f" Previous="a9bdba7a-1af3-456e-ae3e-ba802b554af7" Parent="828cdcd0-aaf8-4152-a06a-7a94ca3b42f8" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{ЗначениеКурса}</Value>
                                             <EnableLog>false</EnableLog>
+                                            <Value>{ЗначениеКурса}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>B{Счетчик+1}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -176,8 +176,8 @@
                                         </Standard.CSharp>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="2d1fc622-1829-4b34-a0fd-386e94ba0c66" Next="09abb8ce-626b-4a90-9191-63833f87ea49" Previous="154d0e38-1ab3-455c-85db-08f9bbc3fbc3" Parent="828cdcd0-aaf8-4152-a06a-7a94ca3b42f8" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{Дельта}</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>{Дельта}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>C{Счетчик+1}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -193,8 +193,8 @@
                                         </Excel.ExecuteOfFormula>
                                         <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="be33c36f-f315-4e36-b7c6-b3d402ef1b7d" Next="" Previous="09abb8ce-626b-4a90-9191-63833f87ea49" Parent="828cdcd0-aaf8-4152-a06a-7a94ca3b42f8" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                             <Value>Счетчик + 1</Value>
+                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                           </Properties>
                                         </Standard.SetVariable>
                                       </List>
@@ -232,8 +232,8 @@
                                 </Base.If>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="4bcd4f26-e53f-4c9d-9b7c-50f8269c9d76" Next="" Previous="ae350c51-a730-40c4-a1c8-7cf8a4a80a3f" Parent="6f940909-b4a3-4ca1-b25b-8869ff8e7875" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>Count + 1</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                               </List>
@@ -258,14 +258,14 @@
                                 </Standard.CSharp>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик = 2 для excel" Description="" GUID="0d4455c4-1682-474f-8fb1-4e66d6fff1c5" Next="c2b9e9d6-e987-419f-b8e3-e0a124939e60" Previous="cae93269-70fa-4ffc-a0b7-4e6bac3349d5" Parent="4be94929-5dd9-4537-a028-bff2a981e990" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                     <Value>2</Value>
+                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count = 0" Description="" GUID="c2b9e9d6-e987-419f-b8e3-e0a124939e60" Next="b17927f8-74c8-4845-b007-f880e1c963fe" Previous="0d4455c4-1682-474f-8fb1-4e66d6fff1c5" Parent="4be94929-5dd9-4537-a028-bff2a981e990" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>0</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Base.While type_guid="cf54adb4-ca9f-4aa7-be4b-1512a7255012" Name="Loop while" Description="" GUID="b17927f8-74c8-4845-b007-f880e1c963fe" Next="" Previous="c2b9e9d6-e987-419f-b8e3-e0a124939e60" Parent="4be94929-5dd9-4537-a028-bff2a981e990" UI_identifier="Base|cycle" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -278,8 +278,8 @@
                                     </Standard.CSharp>
                                     <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value ЗначениеДаты" Description="" GUID="a1ca2dcf-962e-4c86-affb-0d9690e75edc" Next="e8ea890e-9d83-4d1a-a298-7c07f54c8f39" Previous="59fe0230-4a7c-4c6d-bb68-96fb125e8307" Parent="b17927f8-74c8-4845-b007-f880e1c963fe" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <Value>{ЗначениеДаты}</Value>
                                         <EnableLog>false</EnableLog>
+                                        <Value>{ЗначениеДаты}</Value>
                                         <AddressCell2></AddressCell2>
                                         <CellAddress>A{Счетчик}</CellAddress>
                                         <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -287,14 +287,14 @@
                                     </Excel.SetValueCell>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count + 2" Description="" GUID="e8ea890e-9d83-4d1a-a298-7c07f54c8f39" Next="aa2296af-84fa-4fa3-b40e-00ddbb6b4ca9" Previous="a1ca2dcf-962e-4c86-affb-0d9690e75edc" Parent="b17927f8-74c8-4845-b007-f880e1c963fe" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                         <Value>Count + 2</Value>
+                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик +1" Description="" GUID="aa2296af-84fa-4fa3-b40e-00ddbb6b4ca9" Next="" Previous="e8ea890e-9d83-4d1a-a298-7c07f54c8f39" Parent="b17927f8-74c8-4845-b007-f880e1c963fe" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                         <Value>Счетчик +1</Value>
+                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                   </List>
@@ -358,8 +358,8 @@
                                         </TextActions.DeletePart>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value" Description="" GUID="d0a12a62-0ac7-4f9a-925b-265da3fc8ebe" Next="4f3efcee-4813-470a-9fcf-1e99f63794cf" Previous="267a8191-2685-4bc0-a1e7-1f85feff7f48" Parent="4c850907-acc3-4d78-a368-848cb39fa4bc" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{ЗначениеКурса}</Value>
                                             <EnableLog>false</EnableLog>
+                                            <Value>{ЗначениеКурса}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>B{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -389,8 +389,8 @@
                                         </Standard.CSharp>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="82407595-beff-409a-a069-3abbeece26cf" Next="2a5dcf51-da05-425a-bd32-be52186b01c2" Previous="17203f2d-cd93-444d-a3a3-97cbdedd43bc" Parent="4c850907-acc3-4d78-a368-848cb39fa4bc" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{Дельта}</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>{Дельта}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>C{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -406,8 +406,8 @@
                                         </Excel.ExecuteOfFormula>
                                         <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="a75e351b-5e40-44dd-8dd0-2ee119d4f996" Next="" Previous="2a5dcf51-da05-425a-bd32-be52186b01c2" Parent="4c850907-acc3-4d78-a368-848cb39fa4bc" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                             <Value>Счетчик + 1</Value>
+                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                           </Properties>
                                         </Standard.SetVariable>
                                       </List>
@@ -422,8 +422,8 @@
                                 </Base.If>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="31deebbd-0954-4272-9e7d-6b384d070564" Next="" Previous="b7f89ff2-c0af-4de5-a13a-5c8b980665df" Parent="6b8ee00a-ecb2-472b-8945-94fce1cbc203" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>Count + 1</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                               </List>
@@ -448,14 +448,14 @@
                                 </Standard.CSharp>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик = 2 для excel" Description="" GUID="35c47663-3bba-42a5-9219-c755fe519d6b" Next="83df7739-81b1-4ca1-8cd7-95aea6b51bf1" Previous="fa96f6ae-d2ee-4859-8f4f-ea95b34651a8" Parent="5b0c0eac-68ea-42db-b6b0-806944710861" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                     <Value>2</Value>
+                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count = 0" Description="" GUID="83df7739-81b1-4ca1-8cd7-95aea6b51bf1" Next="596eecb4-4c5d-407b-9747-7b5677cc3db4" Previous="35c47663-3bba-42a5-9219-c755fe519d6b" Parent="5b0c0eac-68ea-42db-b6b0-806944710861" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>0</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Base.While type_guid="cf54adb4-ca9f-4aa7-be4b-1512a7255012" Name="Loop while" Description="" GUID="596eecb4-4c5d-407b-9747-7b5677cc3db4" Next="" Previous="83df7739-81b1-4ca1-8cd7-95aea6b51bf1" Parent="5b0c0eac-68ea-42db-b6b0-806944710861" UI_identifier="Base|cycle" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -468,8 +468,8 @@
                                     </Standard.CSharp>
                                     <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value ЗначениеДаты" Description="" GUID="d6f344db-54fe-4381-a07e-6b6daadea63b" Next="00b5bef7-9527-4650-9ff2-4be97c6d5ecd" Previous="777cdc1a-06ed-410b-aa4a-fb8441f8c386" Parent="596eecb4-4c5d-407b-9747-7b5677cc3db4" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <Value>{ЗначениеДаты}</Value>
                                         <EnableLog>false</EnableLog>
+                                        <Value>{ЗначениеДаты}</Value>
                                         <AddressCell2></AddressCell2>
                                         <CellAddress>A{Счетчик}</CellAddress>
                                         <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -477,14 +477,14 @@
                                     </Excel.SetValueCell>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count + 2" Description="" GUID="00b5bef7-9527-4650-9ff2-4be97c6d5ecd" Next="027066ed-8a04-4d51-a099-b9c6f06e7082" Previous="d6f344db-54fe-4381-a07e-6b6daadea63b" Parent="596eecb4-4c5d-407b-9747-7b5677cc3db4" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                         <Value>Count + 2</Value>
+                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик +1" Description="" GUID="027066ed-8a04-4d51-a099-b9c6f06e7082" Next="" Previous="00b5bef7-9527-4650-9ff2-4be97c6d5ecd" Parent="596eecb4-4c5d-407b-9747-7b5677cc3db4" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                         <Value>Счетчик +1</Value>
+                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                   </List>
@@ -512,8 +512,8 @@
               <List>
                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Валюта" Description="" GUID="78b4ae8a-497f-4377-8bff-fedf461b6745" Next="ac002db2-afa3-40b1-b334-693875190d76" Previous="" Parent="929f8eb3-b632-4b9c-840f-3b02b00e3dda" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                   <Properties>
-                    <ReturnValueVariable>7046d359-b5e7-484e-bf69-ac9c530a5324</ReturnValueVariable>
                     <Value>EUR/RUB</Value>
+                    <ReturnValueVariable>7046d359-b5e7-484e-bf69-ac9c530a5324</ReturnValueVariable>
                   </Properties>
                 </Standard.SetVariable>
                 <REST.Get type_guid="13bf3ea2-8998-4728-aa45-673ad3a0e29b" Name="GET" Description="" GUID="ac002db2-afa3-40b1-b334-693875190d76" Next="3992d85c-72af-4cdd-aa19-92e40ccaceb3" Previous="78b4ae8a-497f-4377-8bff-fedf461b6745" Parent="929f8eb3-b632-4b9c-840f-3b02b00e3dda" UI_identifier="REST|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -539,14 +539,14 @@
                     </Standard.CSharp>
                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable  Счетчик = 2 для excel" Description="" GUID="74b44256-9ffc-491b-a58e-4e90b5a4a83a" Next="d8f49af1-dee8-408d-ad48-a5549146a726" Previous="1635c679-5357-46f2-b945-0d3434c5bed5" Parent="3992d85c-72af-4cdd-aa19-92e40ccaceb3" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                       <Properties>
-                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                         <Value>2</Value>
+                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                       </Properties>
                     </Standard.SetVariable>
                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count = 0" Description="" GUID="d8f49af1-dee8-408d-ad48-a5549146a726" Next="745a36a7-0fd6-442a-af59-3f0bbb47c753" Previous="74b44256-9ffc-491b-a58e-4e90b5a4a83a" Parent="3992d85c-72af-4cdd-aa19-92e40ccaceb3" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                       <Properties>
-                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                         <Value>0</Value>
+                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                       </Properties>
                     </Standard.SetVariable>
                     <Base.If type_guid="890c9edf-13b1-4678-b74d-0538e584528e" Name="If" Description="Проверка: выложено ли основное значение курса? " GUID="745a36a7-0fd6-442a-af59-3f0bbb47c753" Next="" Previous="d8f49af1-dee8-408d-ad48-a5549146a726" Parent="3992d85c-72af-4cdd-aa19-92e40ccaceb3" UI_identifier="Base|if" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -555,8 +555,8 @@
                           <List>
                             <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Курс &quot;-&quot;" Description="В случае отсутсвия основного значения проставляем &quot;-&quot;" GUID="fc5bb384-69fd-42a1-9c0d-fbada1183605" Next="e7d63ce3-e23b-4890-b8cb-076c91bbc697" Previous="" Parent="a1c3dace-5386-4e60-af59-3a343a2afe2b" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <Value>-</Value>
                                 <EnableLog>false</EnableLog>
+                                <Value>-</Value>
                                 <AddressCell2></AddressCell2>
                                 <CellAddress>E{Счетчик}</CellAddress>
                                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -564,8 +564,8 @@
                             </Excel.SetValueCell>
                             <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение&quot;-&quot;" Description="В случае отсутсвия основного значения проставляем &quot;-&quot;" GUID="e7d63ce3-e23b-4890-b8cb-076c91bbc697" Next="32911aed-461e-4959-9e2e-2f25cccf1e3f" Previous="fc5bb384-69fd-42a1-9c0d-fbada1183605" Parent="a1c3dace-5386-4e60-af59-3a343a2afe2b" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <Value>-</Value>
                                 <EnableLog>false</EnableLog>
+                                <Value>-</Value>
                                 <AddressCell2></AddressCell2>
                                 <CellAddress>F{Счетчик}</CellAddress>
                                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -573,8 +573,8 @@
                             </Excel.SetValueCell>
                             <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value &quot;-&quot;" Description="" GUID="32911aed-461e-4959-9e2e-2f25cccf1e3f" Next="7da2bd22-baf6-40a9-ae0a-dd37c0bdd904" Previous="e7d63ce3-e23b-4890-b8cb-076c91bbc697" Parent="a1c3dace-5386-4e60-af59-3a343a2afe2b" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <Value>-</Value>
                                 <EnableLog>true</EnableLog>
+                                <Value>-</Value>
                                 <AddressCell2></AddressCell2>
                                 <CellAddress>G{Счетчик}</CellAddress>
                                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -604,8 +604,8 @@
                                         </TextActions.DeletePart>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value ЗначениеКурса" Description="" GUID="112db2d4-06c2-4d3a-a139-54620ac00d63" Next="a73ed6a8-08b7-4044-99f1-d92e5369c640" Previous="bc11a676-edf3-481e-bc18-298487d20d94" Parent="cde95275-4112-4b6b-851f-9cfeca72a2dc" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{ЗначениеКурса}</Value>
                                             <EnableLog>false</EnableLog>
+                                            <Value>{ЗначениеКурса}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>E{Счетчик+1}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -635,8 +635,8 @@
                                         </Standard.CSharp>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="1219219d-1943-4056-b571-534ddc739fe1" Next="c0b87c27-ecce-4629-87eb-80804ed7758c" Previous="b7b570b9-e305-4345-89ad-dfa2ec092844" Parent="cde95275-4112-4b6b-851f-9cfeca72a2dc" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{Дельта}</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>{Дельта}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>F{Счетчик+1}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -652,8 +652,8 @@
                                         </Excel.ExecuteOfFormula>
                                         <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="3435f981-7fbd-4078-9dd1-c6fe1081c9c7" Next="" Previous="c0b87c27-ecce-4629-87eb-80804ed7758c" Parent="cde95275-4112-4b6b-851f-9cfeca72a2dc" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                             <Value>Счетчик + 1</Value>
+                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                           </Properties>
                                         </Standard.SetVariable>
                                       </List>
@@ -691,8 +691,8 @@
                                 </Base.If>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="5c019224-572a-4aaf-bd87-cf698ae9b12c" Next="" Previous="9ecc94b4-d78a-425e-b929-9d21e79dc69f" Parent="7da2bd22-baf6-40a9-ae0a-dd37c0bdd904" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>Count + 1</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                               </List>
@@ -717,14 +717,14 @@
                                 </Standard.CSharp>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик = 2 для excel" Description="" GUID="fbe14adf-538a-403c-b194-301c6f9bf0a3" Next="b4372d0b-00bd-4634-afa4-4da6ddf5162b" Previous="6c6f4b09-90e8-4ef0-950b-5cdb7f7ed585" Parent="798ba07c-2022-40ef-9312-d76f43eaa7fd" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                     <Value>2</Value>
+                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count = 0" Description="" GUID="b4372d0b-00bd-4634-afa4-4da6ddf5162b" Next="cb103543-bfe0-4e41-a575-8d2ed771871b" Previous="fbe14adf-538a-403c-b194-301c6f9bf0a3" Parent="798ba07c-2022-40ef-9312-d76f43eaa7fd" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>0</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Base.While type_guid="cf54adb4-ca9f-4aa7-be4b-1512a7255012" Name="Loop while" Description="" GUID="cb103543-bfe0-4e41-a575-8d2ed771871b" Next="" Previous="b4372d0b-00bd-4634-afa4-4da6ddf5162b" Parent="798ba07c-2022-40ef-9312-d76f43eaa7fd" UI_identifier="Base|cycle" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -737,8 +737,8 @@
                                     </Standard.CSharp>
                                     <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Значение Даты" Description="" GUID="5bfc53af-91f5-4a0b-8485-16a19edcca31" Next="b89dc18d-99f6-4b1c-af8a-e10d10247bbe" Previous="f98567b7-2169-40aa-addb-c42f3ad7412a" Parent="cb103543-bfe0-4e41-a575-8d2ed771871b" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <Value>{ЗначениеДаты}</Value>
                                         <EnableLog>false</EnableLog>
+                                        <Value>{ЗначениеДаты}</Value>
                                         <AddressCell2></AddressCell2>
                                         <CellAddress>D{Счетчик}</CellAddress>
                                         <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -746,14 +746,14 @@
                                     </Excel.SetValueCell>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count + 2" Description="" GUID="b89dc18d-99f6-4b1c-af8a-e10d10247bbe" Next="2e96ddf6-451b-4513-9c0f-0e6dbaa99461" Previous="5bfc53af-91f5-4a0b-8485-16a19edcca31" Parent="cb103543-bfe0-4e41-a575-8d2ed771871b" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                         <Value>Count + 2</Value>
+                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик +1" Description="" GUID="2e96ddf6-451b-4513-9c0f-0e6dbaa99461" Next="" Previous="b89dc18d-99f6-4b1c-af8a-e10d10247bbe" Parent="cb103543-bfe0-4e41-a575-8d2ed771871b" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                         <Value>Счетчик +1</Value>
+                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                   </List>
@@ -817,8 +817,8 @@
                                         </TextActions.DeletePart>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value" Description="" GUID="a8e08f69-c31f-467c-9e6d-8eaa4b48e286" Next="3c0ff043-8540-4704-a321-7bc7d066e3f0" Previous="2b7b39df-da9f-4f45-8976-56f1e2524c51" Parent="362c0546-1487-4b81-8f79-0ce173481e08" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{ЗначениеКурса}</Value>
                                             <EnableLog>false</EnableLog>
+                                            <Value>{ЗначениеКурса}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>E{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -848,8 +848,8 @@
                                         </Standard.CSharp>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="859a956d-4e89-4b6a-a4cc-90e6e7ea0883" Next="d3914993-a2e3-48be-a225-66789fb3fe94" Previous="43ec39ae-fa34-4a5c-8749-7bbc17aa62a8" Parent="362c0546-1487-4b81-8f79-0ce173481e08" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{Дельта}</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>{Дельта}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>F{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -865,8 +865,8 @@
                                         </Excel.ExecuteOfFormula>
                                         <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="7200269f-3d76-41e6-8d15-fec56faac198" Next="" Previous="d3914993-a2e3-48be-a225-66789fb3fe94" Parent="362c0546-1487-4b81-8f79-0ce173481e08" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                             <Value>Счетчик + 1</Value>
+                                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                           </Properties>
                                         </Standard.SetVariable>
                                       </List>
@@ -881,8 +881,8 @@
                                 </Base.If>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="54040882-2d0d-43b7-81f9-d38bc70b7bb0" Next="" Previous="c4582585-aa47-4abe-a3cf-ded8f3f71790" Parent="904de3c1-0c9f-4cab-a9e8-e39f7fc77176" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>Count + 1</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                               </List>
@@ -907,14 +907,14 @@
                                 </Standard.CSharp>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик = 2 для excel" Description="" GUID="692bd1bf-98c9-44e5-b1b5-d9f47081ffe1" Next="a76df55c-dbb4-4ef7-9a41-b2e8362fbc32" Previous="64272190-45c1-465a-94e9-3c61138b7c37" Parent="9343ffd5-229f-42fa-b4a6-ef612e35663e" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                     <Value>2</Value>
+                                    <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count = 0" Description="" GUID="a76df55c-dbb4-4ef7-9a41-b2e8362fbc32" Next="ab87fac2-87c7-4d99-8d1e-54bdc37898dc" Previous="692bd1bf-98c9-44e5-b1b5-d9f47081ffe1" Parent="9343ffd5-229f-42fa-b4a6-ef612e35663e" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                     <Value>0</Value>
+                                    <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                   </Properties>
                                 </Standard.SetVariable>
                                 <Base.While type_guid="cf54adb4-ca9f-4aa7-be4b-1512a7255012" Name="Loop while" Description="" GUID="ab87fac2-87c7-4d99-8d1e-54bdc37898dc" Next="" Previous="a76df55c-dbb4-4ef7-9a41-b2e8362fbc32" Parent="9343ffd5-229f-42fa-b4a6-ef612e35663e" UI_identifier="Base|cycle" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -927,8 +927,8 @@
                                     </Standard.CSharp>
                                     <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value ЗначениеДаты" Description="" GUID="d5fc0be9-d001-4d7f-8609-9896287d9f22" Next="419f439e-0893-4c4b-adbb-e2c954e93d2b" Previous="3a8706e9-726d-4e57-8dda-de95be7df906" Parent="ab87fac2-87c7-4d99-8d1e-54bdc37898dc" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <Value>{ЗначениеДаты}</Value>
                                         <EnableLog>false</EnableLog>
+                                        <Value>{ЗначениеДаты}</Value>
                                         <AddressCell2></AddressCell2>
                                         <CellAddress>D{Счетчик}</CellAddress>
                                         <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -936,14 +936,14 @@
                                     </Excel.SetValueCell>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Count + 2" Description="" GUID="419f439e-0893-4c4b-adbb-e2c954e93d2b" Next="25544919-a6ea-4812-8e73-bb5f853760a2" Previous="d5fc0be9-d001-4d7f-8609-9896287d9f22" Parent="ab87fac2-87c7-4d99-8d1e-54bdc37898dc" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                         <Value>Count + 2</Value>
+                                        <ReturnValueVariable>f9b8eefd-3442-4462-86c1-0e129496ca8e</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable Счетчик +1" Description="" GUID="25544919-a6ea-4812-8e73-bb5f853760a2" Next="" Previous="419f439e-0893-4c4b-adbb-e2c954e93d2b" Parent="ab87fac2-87c7-4d99-8d1e-54bdc37898dc" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                         <Value>Счетчик +1</Value>
+                                        <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                       </Properties>
                                     </Standard.SetVariable>
                                   </List>
@@ -1188,8 +1188,8 @@
                       <List>
                         <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="7be796ce-dc46-4b45-abe8-32a5e6f9cdc4" Next="22fa2ac0-5480-4d90-a0ad-2c64d04b8cd0" Previous="" Parent="5e32afb7-7441-44e7-8efb-5b2e04c82a46" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                           <Properties>
-                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                             <Value>2</Value>
+                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                           </Properties>
                         </Standard.SetVariable>
                         <Base.While type_guid="cf54adb4-ca9f-4aa7-be4b-1512a7255012" Name="Loop while" Description="" GUID="22fa2ac0-5480-4d90-a0ad-2c64d04b8cd0" Next="" Previous="7be796ce-dc46-4b45-abe8-32a5e6f9cdc4" Parent="5e32afb7-7441-44e7-8efb-5b2e04c82a46" UI_identifier="Base|cycle" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -1207,8 +1207,8 @@
                                 </TableData.GetDataCell>
                                 <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Дата" Description="" GUID="ee63a45c-55e5-42ca-826a-ba686cd022f6" Next="" Previous="a4e58d8e-5c5c-4597-9027-004781800051" Parent="9cf7042f-0e5e-4c64-9fbf-f5c7a94d1890" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <Value>{ЗначениеДаты}</Value>
                                     <EnableLog>true</EnableLog>
+                                    <Value>{ЗначениеДаты}</Value>
                                     <AddressCell2></AddressCell2>
                                     <CellAddress>A{Счетчик}</CellAddress>
                                     <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1240,8 +1240,8 @@
                                 </TextActions.ReplaceActions>
                                 <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Значение Курса" Description="" GUID="11ede8a9-e74f-4530-af5d-1ebdf7ddeee8" Next="" Previous="d0c7281a-a4ea-4ff6-87fc-caf8748bb100" Parent="bd52c5f6-9bf7-46e9-96c4-c3e6deeb8ec7" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <Value>{ЗначениеКурса}</Value>
                                     <EnableLog>true</EnableLog>
+                                    <Value>{ЗначениеКурса}</Value>
                                     <AddressCell2></AddressCell2>
                                     <CellAddress>B{Счетчик}</CellAddress>
                                     <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1293,8 +1293,8 @@
                                     </Standard.CSharp>
                                     <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="52742e2a-d850-42ef-85fa-dd63be25cfa6" Next="" Previous="4807a898-6299-4209-82b3-2683ee336f5f" Parent="92753650-1a70-4cae-958a-5ad4d7e999c6" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <Value>{Дельта}</Value>
                                         <EnableLog>true</EnableLog>
+                                        <Value>{Дельта}</Value>
                                         <AddressCell2></AddressCell2>
                                         <CellAddress>C{Счетчик}</CellAddress>
                                         <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1316,8 +1316,8 @@
                                   <List>
                                     <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="ffb2fe5c-f3e3-4e20-9ef1-a2f1cdff48fb" Next="" Previous="" Parent="aecd5f34-72f5-40e8-8209-2d7a9220f5c2" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                       <Properties>
-                                        <Value>-</Value>
                                         <EnableLog>true</EnableLog>
+                                        <Value>-</Value>
                                         <AddressCell2></AddressCell2>
                                         <CellAddress>C{Счетчик}</CellAddress>
                                         <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1335,8 +1335,8 @@
                             </Base.If>
                             <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="611a59c7-57af-4ff6-adbc-df6875bd7b44" Next="" Previous="37473b89-d0c3-46cd-8d78-094ce67e8d9f" Parent="22fa2ac0-5480-4d90-a0ad-2c64d04b8cd0" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                 <Value>Счетчик+ 1</Value>
+                                <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                               </Properties>
                             </Standard.SetVariable>
                           </List>
@@ -1503,8 +1503,8 @@
                       <List>
                         <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="be85f1b4-552b-4936-8f99-63d457e9f46c" Next="c7fe60bf-d899-42dd-9bb9-d76f815adc4a" Previous="" Parent="c4a0ce67-4554-4b57-8a7f-ca0e8f32ed58" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                           <Properties>
-                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                             <Value>2</Value>
+                            <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                           </Properties>
                         </Standard.SetVariable>
                         <Base.While type_guid="cf54adb4-ca9f-4aa7-be4b-1512a7255012" Name="Loop while" Description="" GUID="c7fe60bf-d899-42dd-9bb9-d76f815adc4a" Next="" Previous="be85f1b4-552b-4936-8f99-63d457e9f46c" Parent="c4a0ce67-4554-4b57-8a7f-ca0e8f32ed58" UI_identifier="Base|cycle" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
@@ -1522,8 +1522,8 @@
                                 </TableData.GetDataCell>
                                 <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Дата" Description="" GUID="515ff95c-e8f9-4239-af91-5f23c0469852" Next="" Previous="7129097f-4881-49f4-a08a-d6edda70cdb6" Parent="3fca3feb-1222-493c-84d6-52330fd5c701" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <Value>{ЗначениеДаты}</Value>
                                     <EnableLog>true</EnableLog>
+                                    <Value>{ЗначениеДаты}</Value>
                                     <AddressCell2></AddressCell2>
                                     <CellAddress>D{Счетчик}</CellAddress>
                                     <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1555,8 +1555,8 @@
                                 </TextActions.ReplaceActions>
                                 <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Значение Курса" Description="" GUID="20708884-aab3-40df-afb7-1e1887802ae0" Next="" Previous="64be8b2d-bb46-41ed-b2c1-ca49129ad6fe" Parent="21deba22-a737-42d4-ae7e-0be3cd644169" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                   <Properties>
-                                    <Value>{ЗначениеКурса}</Value>
                                     <EnableLog>true</EnableLog>
+                                    <Value>{ЗначениеКурса}</Value>
                                     <AddressCell2></AddressCell2>
                                     <CellAddress>E{Счетчик}</CellAddress>
                                     <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1610,8 +1610,8 @@
                                         </Standard.CSharp>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="277d126a-ad58-421f-ad05-4515dfab7061" Next="fb2a97e7-25dc-43e2-b3df-e909ee47112a" Previous="76e7ac42-8d10-4abd-9d6c-07747c998faf" Parent="0dd27e20-49a7-4485-a5cd-4beffde6a640" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>{Дельта}</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>{Дельта}</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>F{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1641,8 +1641,8 @@
                                       <List>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value Изменение" Description="" GUID="96d77f94-9b94-419b-9332-693cf8a37f9a" Next="7eaa4dea-27ab-4afe-a60e-1a6db033ef18" Previous="" Parent="ec8353c6-ff0a-422e-9741-b06876774ff8" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>-</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>-</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>F{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1650,8 +1650,8 @@
                                         </Excel.SetValueCell>
                                         <Excel.SetValueCell type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10319" Name="Set cell value " Description="" GUID="7eaa4dea-27ab-4afe-a60e-1a6db033ef18" Next="" Previous="96d77f94-9b94-419b-9332-693cf8a37f9a" Parent="ec8353c6-ff0a-422e-9741-b06876774ff8" UI_identifier="Excel|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                                           <Properties>
-                                            <Value>-</Value>
                                             <EnableLog>true</EnableLog>
+                                            <Value>-</Value>
                                             <AddressCell2></AddressCell2>
                                             <CellAddress>G{Счетчик}</CellAddress>
                                             <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
@@ -1671,8 +1671,8 @@
                             </Base.Sequence>
                             <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="df0c0f74-dfbd-420a-bc6b-d02a77cbaeb4" Next="" Previous="024e16bf-cd09-4672-bceb-13cee84423a5" Parent="c7fe60bf-d899-42dd-9bb9-d76f815adc4a" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                                 <Value>Счетчик+ 1</Value>
+                                <ReturnValueVariable>00290b0a-e70b-40c4-91ac-3737c991e38c</ReturnValueVariable>
                               </Properties>
                             </Standard.SetVariable>
                           </List>
@@ -1720,8 +1720,8 @@
                   <List>
                     <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="d4e8a9b7-efc6-4282-a42b-b3fce5981c7c" Next="" Previous="" Parent="3b3cbbdc-7ec9-4e45-95af-a54f6f159001" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                       <Properties>
-                        <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                         <Value>строк</Value>
+                        <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                       </Properties>
                     </Standard.SetVariable>
                   </List>
@@ -1737,8 +1737,8 @@
                           <List>
                             <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="1fc0b6d6-fccb-4be5-a2a3-19f202128762" Next="" Previous="" Parent="e422c5d0-9757-45e8-9ed4-7a5f11701924" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                                 <Value>строки</Value>
+                                <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                               </Properties>
                             </Standard.SetVariable>
                           </List>
@@ -1757,8 +1757,8 @@
                           <List>
                             <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="d09c047e-81a7-422c-b64a-0dd0add3e451" Next="" Previous="" Parent="4f2dd548-17f1-493c-acdd-1b90d303acb9" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                                 <Value>строк</Value>
+                                <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                               </Properties>
                             </Standard.SetVariable>
                           </List>
@@ -1777,8 +1777,8 @@
                           <List>
                             <Standard.SetVariable type_guid="59c686d3-1c13-44f2-af6c-52714c5eaa68" Name="Set variable" Description="" GUID="cf2fcfd3-c629-47aa-8cf4-a8bdf26cfde0" Next="" Previous="" Parent="de2df210-0d5c-4f4b-951d-f202ec7bbc32" UI_identifier="Base|prisvoenie" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
                               <Properties>
-                                <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                                 <Value>строка</Value>
+                                <ReturnValueVariable>2d836004-02d2-445c-8d22-a45b8a24fbc4</ReturnValueVariable>
                               </Properties>
                             </Standard.SetVariable>
                           </List>
@@ -1825,29 +1825,34 @@
             </Excel.RunMacro>
             <Excel.SaveExcelDocument type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10305" Name="Save document" Description="" GUID="9e80687b-6da9-4c7a-85dc-e809d5d214c5" Next="1e51ae9e-1349-4b6c-9889-09fa5eb78259" Previous="842943de-a924-4f91-961d-569e1060ca0e" Parent="81557665-96b6-4371-afaf-04e90594f6b7" UI_identifier="Excel|save" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
               <Properties>
-                <PathToSave>{ПутьДоФайла}</PathToSave>
                 <FileName>КурсВалют</FileName>
+                <PathToSave>{ПутьДоФайла}</PathToSave>
                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
               </Properties>
             </Excel.SaveExcelDocument>
-            <Excel.Close type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10314" Name="Close" Description="" GUID="1e51ae9e-1349-4b6c-9889-09fa5eb78259" Next="8320ee01-10fd-4a57-92ef-48d5138e3369" Previous="9e80687b-6da9-4c7a-85dc-e809d5d214c5" Parent="81557665-96b6-4371-afaf-04e90594f6b7" UI_identifier="Excel|close" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
+            <Excel.Close type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c10314" Name="Close" Description="" GUID="1e51ae9e-1349-4b6c-9889-09fa5eb78259" Next="e516b4a0-d318-4155-9fb6-ab47c5917b4f" Previous="9e80687b-6da9-4c7a-85dc-e809d5d214c5" Parent="81557665-96b6-4371-afaf-04e90594f6b7" UI_identifier="Excel|close" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
               <Properties>
                 <ContextName>58847821-fc60-4ef3-8555-799246dea07c</ContextName>
               </Properties>
             </Excel.Close>
-            <Outlook.Send type_guid="a95cbc1d-b583-4bbb-9339-000000000501" Name="Send" Description="" GUID="8320ee01-10fd-4a57-92ef-48d5138e3369" Next="" Previous="1e51ae9e-1349-4b6c-9889-09fa5eb78259" Parent="81557665-96b6-4371-afaf-04e90594f6b7" UI_identifier="Outlook|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
+            <Web.CloseBrowser type_guid="a95cbc1d-b583-4bbb-9339-5d54b1c11003" Name="Close browser" Description="" GUID="e516b4a0-d318-4155-9fb6-ab47c5917b4f" Next="8320ee01-10fd-4a57-92ef-48d5138e3369" Previous="1e51ae9e-1349-4b6c-9889-09fa5eb78259" Parent="81557665-96b6-4371-afaf-04e90594f6b7" UI_identifier="Web|close" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
               <Properties>
+                <ContextName>32c6fab6-b7bc-48e5-8ef7-a70c399accce</ContextName>
+              </Properties>
+            </Web.CloseBrowser>
+            <Outlook.Send type_guid="a95cbc1d-b583-4bbb-9339-000000000501" Name="Send" Description="" GUID="8320ee01-10fd-4a57-92ef-48d5138e3369" Next="" Previous="e516b4a0-d318-4155-9fb6-ab47c5917b4f" Parent="81557665-96b6-4371-afaf-04e90594f6b7" UI_identifier="Outlook|" DelayTime="0" TryCatch="00000000-0000-0000-0000-000000000000" Breakpoint="false" Exclude="false">
+              <Properties>
+                <EnableLog>true</EnableLog>
                 <Recipients>{email}</Recipients>
                 <CC></CC>
                 <BCC></BCC>
                 <Subject>Курсы валют</Subject>
+                <Body></Body>
                 <Body2>Добрый день!
 &lt;p&gt;Во вложении файл отчета по курсам валют за текущий месяц.&lt;/p&gt;
 &lt;p&gt;Отчет содержит {ЧислоСтрокОтчет} {Строка} .&lt;/p&gt;</Body2>
                 <Attachment>{ПутьДоФайла}КурсВалют.xlsx</Attachment>
                 <UserName></UserName>
-                <EnableLog>true</EnableLog>
-                <Body></Body>
               </Properties>
             </Outlook.Send>
           </List>
